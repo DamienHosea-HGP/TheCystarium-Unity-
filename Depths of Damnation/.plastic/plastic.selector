@@ -1,0 +1,4 @@
+repository "Depths of Damnation@Damien_HGP@cloud"
+  path "/"
+    br "/main"
+    co "/main"

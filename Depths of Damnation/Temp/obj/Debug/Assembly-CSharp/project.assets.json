@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "AimingRig/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/AimingRig.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AimingRig.dll": {}
+        }
+      },
+      "Unity.Postprocessing.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Postprocessing.Runtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+        }
+      },
+      "Unity.Postprocessing.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AimingRig/1.0.0": {
+      "type": "project",
+      "path": "AimingRig.csproj",
+      "msbuildProject": "AimingRig.csproj"
+    },
+    "Unity.Postprocessing.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Postprocessing.Editor.csproj",
+      "msbuildProject": "Unity.Postprocessing.Editor.csproj"
+    },
+    "Unity.Postprocessing.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.Postprocessing.Runtime.csproj",
+      "msbuildProject": "Unity.Postprocessing.Runtime.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "AimingRig >= 1.0.0",
+      "Unity.Postprocessing.Editor >= 1.0.0",
+      "Unity.Postprocessing.Runtime >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/damienhosea/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Assembly-CSharp.csproj",
+      "packagesPath": "/Users/damienhosea/.nuget/packages/",
+      "outputPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Temp/obj/Debug/Assembly-CSharp/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/damienhosea/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/AimingRig.csproj": {
+              "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/AimingRig.csproj"
+            },
+            "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj": {
+              "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj"
+            },
+            "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj": {
+              "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

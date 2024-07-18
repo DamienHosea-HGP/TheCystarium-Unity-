@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj": {}
+  },
+  "projects": {
+    "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj",
+        "projectName": "Unity.Postprocessing.Editor",
+        "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Editor.csproj",
+        "packagesPath": "/Users/damienhosea/.nuget/packages/",
+        "outputPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Temp/obj/Debug/Unity.Postprocessing.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/damienhosea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj": {
+                "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj",
+        "projectName": "Unity.Postprocessing.Runtime",
+        "projectPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Unity.Postprocessing.Runtime.csproj",
+        "packagesPath": "/Users/damienhosea/.nuget/packages/",
+        "outputPath": "/Users/damienhosea/Desktop/TheCystarium-Unity-/Depths of Damnation/Temp/obj/Debug/Unity.Postprocessing.Runtime/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/damienhosea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
